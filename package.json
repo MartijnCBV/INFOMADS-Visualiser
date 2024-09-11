@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "wds --node-resolve --open --watch"
+  }
+}
