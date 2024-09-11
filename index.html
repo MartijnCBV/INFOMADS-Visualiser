@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Diagramming test</title>
+        <script src="index.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="tool-bar">
+            <h1>INFOMADS Borrels Visualiser</h1>
+            <p>
+                **DISCLAIMER**
+                This visualiser might break in case of malformed inputs, for bugs or feature requests please make an issue on <a href="https://github.com/MartijnCBV/INFOMADS-Visualiser/issues">GitHub</a>.
+            </p>
+        </div>
+        <div id="problem-app">
+            <h2>Problem Visualiser</h2>
+            <textarea style="width: 400px;height: 300px;" id="problem-in"></textarea><br />
+            <textarea style="width: 400px;height: 300px;" id="solution-in"></textarea><br />
+            <button id="problem-submit" type="button" onclick="submitProblem()">Render Problem</button>
+            <button id="solution-submit" type="button" onclick="submitSolution()">Render Solution</button>
+            <div id="canvas"></div>
+        </div>
+
+    </body>
+</html>
